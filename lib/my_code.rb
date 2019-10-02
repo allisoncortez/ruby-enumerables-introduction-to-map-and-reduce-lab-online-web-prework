@@ -67,10 +67,10 @@ end
 def reduce_to_any_true(array)
   counter = 0
   while counter < array.size do
-    return false if #write condition here
+    return true if #write condition here( i've found truthy values)
     counter += 1
   end
-  return true
+  return false
 end
 
 
