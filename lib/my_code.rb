@@ -58,20 +58,20 @@ end
 def reduce_to_all_true(array)
   counter = 0
   while counter < array.size do
-    return false if #write condition here
+    return false if array == false
     counter += 1
   end
   return true
 end
 
-def reduce_to_any_true(array)
-  counter = 0
-  while counter < array.size do
-    return true if #write condition here( i've found truthy values)
-    counter += 1
-  end
-  return false
-end
+# def reduce_to_any_true(array)
+#   counter = 0
+#   while counter < array.size do
+#     return true if #write condition here( i've found truthy values)
+#     counter += 1
+#   end
+#   return false
+# end
 
 
 
